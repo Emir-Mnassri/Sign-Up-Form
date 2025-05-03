@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.side-section {
+    /* border: 2px solid black; */
+    width: 30%;
+    height: 729px;
+    background-image: url("/Sign-Up-Form/media/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+@font-face {
+    font-family: new-font;
+    src: url("/Sign-Up-Form/media/Norse-Bold\ \(1\).otf");
+}
+.logo-section {
+    width: 100%;
+    /* border: 2px solid white; */
+    height: 125px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-description {
+    color: white;
+    font-family: new-font;
+    font-size: 5rem;
+}
+.odin-logo {
+    width: 125x;
+    height: 100px;
+}
+.credit-section {
+    width: 100%;
+    align-self: flex-end;
+    text-align: center;
+    color: white;
+}
+a {
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+}
