@@ -10,7 +10,7 @@
     <div class="side-section">
         <div class="logo-section">
             <div class="logo">
-                <img src="/Sign-Up-Form/media/odin-lined.png" alt="odin-logo" class="odin-logo">
+                <img src="/media/odin-lined.png" alt="odin-logo" class="odin-logo">
             </div>
             <div class="logo-description">
                 ODIN
@@ -21,6 +21,37 @@
         </div>
     </div>
     <div class="main-section">
+        <div class="info">
+            This not a real online service! You know you need something like this in your life to help you realize your deepest dreams Sign up now to get started
+            <p class="info-last-line">You know you want to</p>
+        </div>
+        <div class="signup-section">
+            <h1>Let's do this</h1>
+            <form action="#" method="post">
+                <div class="left-side">
+                   <label for="first-name">FIRST NAME</label>
+                   <input type="text" name="first-name" id="first-name" required placeholder="Your First Name">
+                   <label for="email">EMAIL</label>
+                   <input type="email" name="email" id="email" required placeholder="you@gmail.com">
+                   <label for="password">PASSWORD</label>
+                   <input type="password" name="password" id="password" required placeholder="************">
+                </div>
+                <div class="right-side">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="last-name" id="last-name" required placeholder="Your Last Name">
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="tel" id="phone-number" name="phone-number" placeholder="Enter phone number" minlength="7" maxlength="12" pattern="[0-9]{7,12}" required>
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm-password" id="confirm-password" required placeholder="Confirm Your Password">
+                </div>
+            </form>
+        </div>
+        <div class="sumbit-button">
+            <button type="submit">Create Account</button>
+        </div>
+        <div class="login-section">
+            <p>Already have an account? <a href="#" class="login">Log in</a></p>
+        </div>
     </div>
 </body>
 </html>
